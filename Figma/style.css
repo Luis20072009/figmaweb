@@ -20,7 +20,7 @@ background: linear-gradient(234deg, rgba(255, 125, 2, 0.72) 0%, rgba(227, 110, 0
 
 
 
-/* aqui inicia el header */
+/* inicio del header */
 
 header{
     display: flex;
@@ -76,5 +76,26 @@ cursor: pointer;
 
 .btn-header:hover{
     background-color: #94b3ff;
+
+}
+
+
+/* inico de la barra de navegacion */
+.btn-barra{
+    background-color: #f5f5f5;
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.btn-barra:hover{
+    background-color: #232340;
+    color: white;
 
 }
